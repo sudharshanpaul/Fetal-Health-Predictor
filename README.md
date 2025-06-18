@@ -4,12 +4,6 @@ This project aims to predict the health status of a fetus (Normal, Suspect, or P
 
 ---
 
-## 🚀 Demo
-
-You can launch the interactive Streamlit app here *(update with your deployed link if hosted on Streamlit Cloud or Hugging Face)*.
-
----
-
 ## 📊 Problem Statement
 
 Accurate and early prediction of fetal health status is critical for reducing infant mortality and ensuring timely medical interventions. Traditional analysis of CTG data can be subjective and error-prone. This project automates the analysis using supervised machine learning models to classify fetal health into:
@@ -44,7 +38,7 @@ Some of the features used for prediction include:
 - **Frontend**: Streamlit  
 - **Models**: XGBoost, Random Forest (final selected models)  
 - **Libraries**: `scikit-learn`, `xgboost`, `pandas`, `numpy`, `matplotlib`, `pickle`  
-- **Data Preprocessing**: StandardScaler, Label Encoding
+- **Data Preprocessing**: StandardScaler
 
 ---
 
