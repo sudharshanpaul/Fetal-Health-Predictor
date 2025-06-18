@@ -48,29 +48,6 @@ Some of the features used for prediction include:
 
 ---
 
-## 📦 Project Structure
-
-fetal-health-classifier/
-│
-├── datasets/
-│ ├── fetal_health.csv
-│
-├── app.py # Streamlit UI application
-├── fetal_health.csv # Main dataset
-├── requirements.txt # Python dependencies
-├── README.md # Project overview
-│
-├── models/
-│ ├── preprocessor.pkl # Saved preprocessing pipeline
-│ ├── XGBoost.pkl # Trained XGBoost model
-│ └── RandomForest.pkl # Trained Random Forest model
-│
-├── notebooks/
-│ ├── Data_Analysis.ipynb # Exploratory Data Analysis
-│ └── Model_Building.ipynb # Model training and evaluation
-
----
-
 ## 🧠 Model Training Summary
 
 Two models were selected based on their high performance on test data:
@@ -105,15 +82,31 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+
+## 🔍 App Preview
+
+Below is a screenshot of the Fetal Health Prediction Streamlit web app:
+
+![Streamlit App Screenshot](https://github.com/sudharshanpaul/Fetal-Health-Predictor/blob/main/images/Screenshot%202025-06-18%20095838.png)
+
+![Streamlit App Screenshot](https://github.com/sudharshanpaul/Fetal-Health-Predictor/blob/main/images/Screenshot%202025-06-18%20095854.png)
+
+---
+
 ## 🤝 Contributions
 Feel free to fork this repository and contribute. Open a pull request for suggestions, bug fixes, or improvements!
 
+---
+
 ## 🙏 Acknowledgments
-- Kaggle for the Fetal Health Dataset
+- UCI Machine Learning Repository for the Fetal Health Dataset
 
 - Streamlit for the rapid prototyping tool
 
 - Scikit-learn and XGBoost for powerful modeling frameworks
+
+---
 
 ## ✉️ Contact
 For any queries or collaborations, reach out via [LinkedIn](https://www.linkedin.com/in/sudharshan-paul/) or email: gantasudarshanpaul@gmail.com
