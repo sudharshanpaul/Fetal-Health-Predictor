@@ -60,7 +60,7 @@ Both models were trained using class-balanced weights to handle imbalanced data.
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/fetal-health-classifier.git
+git clone https://github.com/sudharshanpaul/fetal-health-classifier.git
 cd fetal-health-classifier
 ```
 
